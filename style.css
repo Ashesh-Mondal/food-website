@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ############################ utility classes ################################ */
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/* ############################ navbar styling ################################## */
+
+/* For desktop mode */
+
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines{
+    display: none;
+}
+
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    opacity: 0.85;
+    z-index: 10;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    align-items: center;
+}
+
+.menu-items{
+    order: 2;
+    display: flex;
+    font-size: 1rem;
+}
+
+.menu-items li{
+    list-style: none;
+    display: block;
+    font-size: 1.8rem;
+    margin-left: 1.5rem;
+}
+
+.menu-items a{
+    color: #444;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.menu-items a:hover{
+    color: #117964;
+}
+
+.logo{
+    order: 1;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
