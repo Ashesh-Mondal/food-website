@@ -163,12 +163,28 @@ body{
 .about-img{
     flex: 1 1 400px;
     padding: 30px;
+    transform: translateX(200%);
+    animation: moving-img 1s ease-in-out forwards;
+}
+
+@keyframes moving-text{
+    100%{
+        transform: translate(0);
+    }
 }
 
 .about-text{
     flex: 1 1 400px;
     padding: 30px;
     margin: auto;
+    transform: translateX(-200%);
+    animation: moving-text 1s ease-in-out forwards;
+}
+
+@keyframes moving-img{
+    100%{
+        transform: translate(0);
+    }
 }
 
 .about-img img{
