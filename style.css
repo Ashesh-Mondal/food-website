@@ -41,6 +41,11 @@ body{
 .btn-primary{
     color: #fff;
     background: #16a083;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-primary:hover{
+    background: #128068;
 }
 
 
@@ -624,5 +629,15 @@ body{
     .contact-image{
         width: 90%;
         margin: 3rem auto;
+    }
+}
+
+
+
+/* #################### landscape mode ###################### */
+
+@media (orientation: landscape) and (max-height: 500px){
+    .showcase-area{
+        height: 50vmax;
     }
 }
