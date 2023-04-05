@@ -107,9 +107,7 @@ body{
 
 .showcase-area{
     max-width: 100%;
-    /* text-align: center; */
     background: linear-gradient(rgba(240,240,240,0.144), rgba(255,255,255,0.366)),url(./img/header-image2.jpg);
-    /* width: 90%; */
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -137,7 +135,7 @@ body{
     padding: 50px 0;
     background: #f5f5f7;
     background: #f5f5f7;
-    box-shadow: 5px 5px 10px #f5f5f7;
+    box-shadow: 5px 5px 10px #00000024;
 }
 
 .about-wrapper{
@@ -331,3 +329,52 @@ body{
     font-weight: 600;
 }
 
+
+
+
+/* ######################### teastimonial styling ########################### */
+
+#testimonials{
+    background: rgb(243, 243, 243);
+}
+
+.testimonial-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #555;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.testimonial-container .checked{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ff9529;
+}
+
+.testimonial-box{
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.testimonial-box .testimonial-text{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.customer-photo img{
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+}
